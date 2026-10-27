@@ -8,6 +8,6 @@ public class HelloController {
 
     @GetMapping("/hello")
     public String sayHello() {
-        return "Hello from the MAIN branch!";
+    	return "Hello from the resolved merge!";
     }
 }
